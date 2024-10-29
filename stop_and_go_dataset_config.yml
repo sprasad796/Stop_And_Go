@@ -1,0 +1,22 @@
+# # Reference document https://docs.google.com/spreadsheets/d/1DZj_2tlZQ5gwP00d3lVMtdnAevrLpdWJ3ecIeg0O5Lo/edit#gid=0
+# for schema
+
+# datasets
+write_dataset_url: "hdfs://nn2-silver.pit-irn-1.uberatc.net/app/mp/ip/tetrys"
+write_image_dataset_url: "hdfs://nn2-silver.pit-irn-1.uberatc.net/app/mp/ip_images/tetrys"
+write_lane_image_dataset_url: "hdfs://nn2-silver.pit-irn-1.uberatc.net/app/mp/ip_lanes/tetrys"
+
+key_column: "seq_no"
+order_by_column: "frame_no"
+
+# spark session configuration
+# To optimize for better resource utilization (hence faster execution),
+# try setting higher values of spark.task.cpus = spark.executor.cores = X.
+# Try values of X somewhere between 4 and 8. OOM may occur on increasing X.
+spark:
+  task.cpus: "1"
+  executor.cores: "1"
+  executor.memory: "5g"
+  driver.memory: "5g"
+  peloton.executor.memoryOverhead: "15000"
+  peloton.driver.memoryOverhead: "30000"
