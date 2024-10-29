@@ -1,0 +1,53 @@
+#####################################################################
+# Uber, Inc. (c) 2019
+# Description : It has all the configuration Parameters for the cars
+#####################################################################
+# Reference document https://docs.google.com/spreadsheets/d/1A7xSu2Pn7Yu6H77T10eblTQKMHqrSmF4IwswlY3JsqU/edit#gid=0
+car:
+  sim_time_increment_s: .1 # simulation time step
+  resolution_pixel_meter: 1 # Resolution pixel/meter
+# Car travel on frame in 2 phases. a) Parameters before reaching to the stop line b) Parameters after the stop line
+car1:
+  dist_before_stop_m: 229 # distance in meter before reaching to the stop line by car1
+  dist_after_stop_m: 283 # distance in meter after the stop line by car1
+  accl_after_stop_mean_mpss: 8 # mean of the acceleration after crossing the stop line by car1
+  accl_after_stop_dev_mpss: 1 # std of the acceleartion after crossing the stop line by car1
+  decl_before_stop_mean_mpss: -1 # mean of the decel before reaching to the stop line and come to the stop by car1
+  decl_before_stop_dev_mpss: 0.5 # std of the decel before reaching to the stop line and come to the stop by car1
+  speed_before_stop_mean_mps: 5.5 # mean of the speed before reaching to the stop line by car1
+  speed_before_stop_dev_mps: 1 # std of the speed before reaching to the stop line by car1
+  speed_after_stop_mean_mps: 9 # mean of the speed after crossing the stop line by car1
+  speed_after_stop_dev_mps: 1 # std of the speed after crossing the stop line by car1
+car2:
+  dist_before_stop_m: 229
+  dist_after_stop_m: 283
+  accl_after_stop_mean_mpss: 8
+  accl_after_stop_dev_mpss: 1
+  decl_before_stop_mean_mpss: -1
+  decl_before_stop_dev_mpss: 0.5
+  speed_before_stop_mean_mps: 5.5
+  speed_before_stop_dev_mps: 1
+  speed_after_stop_mean_mps: 9
+  speed_after_stop_dev_mps: 1
+car3:
+  dist_before_stop_m: 229
+  dist_after_stop_m: 283
+  accl_after_stop_mean_mpss: 8
+  accl_after_stop_dev_mpss: 1
+  decl_before_stop_mean_mpss: -1
+  decl_before_stop_dev_mpss: 0.5
+  speed_before_stop_mean_mps: 5.5
+  speed_before_stop_dev_mps: 1
+  speed_after_stop_mean_mps: 9
+  speed_after_stop_dev_mps: 1
+car4:
+  dist_before_stop_m: 229
+  dist_after_stop_m: 283
+  accl_after_stop_mean_mpss: 8
+  accl_after_stop_dev_mpss: 1
+  decl_before_stop_mean_mpss: -1
+  decl_before_stop_dev_mpss: 0.5
+  speed_before_stop_mean_mps: 5.5
+  speed_before_stop_dev_mps: 1
+  speed_after_stop_mean_mps: 9
+  speed_after_stop_dev_mps: 1
