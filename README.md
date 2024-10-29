@@ -22,3 +22,6 @@ python stop_and_go_main.py
   This file contains the gaussian parameters of the AV
 
   Changing subimage size will require regeneration of dataset and it's properties. Below is the reference document.
+
+## Output file:
+   stop-and-go-rotated_south.mp4
