@@ -26,3 +26,6 @@ python stop_and_go_main.py
 
 https://github.com/user-attachments/assets/7e6042ab-e8a0-4d60-b21e-7ab1de60faec
 
+=======
+## Output file:
+   stop-and-go-rotated_south.mp4
