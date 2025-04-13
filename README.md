@@ -29,3 +29,5 @@ https://github.com/user-attachments/assets/7e6042ab-e8a0-4d60-b21e-7ab1de60faec
 =======
 ## Output file:
    stop-and-go-rotated_south.mp4
+## Autonomous Vehicle to be trained:
+   av-car-ref.png
